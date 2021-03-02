@@ -26,6 +26,14 @@ mv -f front front.0
 npx create-react-app front
 cd front
 
+npm install @date-io/date-fns@1.x date-fns
+npm install @material-ui/core
+npm install @material-ui/icons
+npm install @material-ui/lab
+npm install @material-ui/pickers
+npm install gapi-client
+npm install react-router-dom
+
 export HTTPS=true 
 export PORT=443 
 export SSL_CRT_FILE=/PATH/TO/cert.pem 
